@@ -10,9 +10,9 @@
     "start": "npm run clean && webpack-dev-server",
     "build": "npm run clean && cross-env NODE_ENV=production webpack --progress",
     "clean": "rimraf ./dist",
-    "deploy": "npm run build && gh-pages -d dist",
+    "deploy": "npm run build",
     "lint": "eslint src --ext jsx --ext js",
-    "serve": "npm run build && http-server dist -p 6002",
+    "serve": "npm run build",
     "analyze": "npm run build -- --analyze"
   },
   "browserslist": [
