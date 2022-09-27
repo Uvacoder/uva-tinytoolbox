@@ -1,5 +1,5 @@
 module.exports = {
-  repository: 'https://github.com/uvacoder/tools-resources',
+  repository: 'https://github.com/uvacoder/abc-tinytoolbox',
   bugs: 'https://github.com/rtivital/omatsuri/issues/new',
 
   meta: [
