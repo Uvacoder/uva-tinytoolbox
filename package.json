@@ -1,9 +1,9 @@
 {
-  "name": "Omatsuri",
+  "name": "tinytoolbox",
   "version": "1.0.0",
   "description": "Open source frontend focused tools",
-  "repository": "https://github.com/rtivital/tools.git",
-  "author": "Vitaly Rtishchev <rtivital@gmail.com>",
+  "repository": "https://github.com/uvacoder/tinytoolbox.git",
+  "author": "Alec Campbell <uvacoder@proton.me>",
   "license": "MIT",
   "private": true,
   "scripts": {
