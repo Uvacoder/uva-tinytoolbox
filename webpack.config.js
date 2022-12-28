@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserJSPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
-const CnameWebpackPlugin = require('cname-webpack-plugin');
+// const CnameWebpackPlugin = require('cname-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 const OfflinePlugin = require('offline-plugin');
@@ -30,11 +30,11 @@ const templateContent = ({ htmlWebpackPlugin }) => `
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="Progressive Web Application with 12 open source frontend focused tools">
       <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
-      <title>Omatsuri</title>
+      <title>tinytoolbox</title>
     </head>
     <body>
       <noscript>
-        Enable JavaScript to use Omatsuri
+        Enable JavaScript to use tinytoolbox
       </noscript>
 
       <div id="app"></div>
@@ -188,7 +188,7 @@ module.exports = {
       : [
         new BundleAnalyzerPlugin({ analyzerMode: analyze ? 'static' : 'disabled' }),
         new MiniCssExtractPlugin(),
-        new CnameWebpackPlugin({ domain: 'omatsuri.app' }),
+        // new CnameWebpackPlugin({ domain: 'omatsuri.app' }),
         new OfflinePlugin({ autoUpdate: true, appShell: '/', excludes: ['404.html', 'CNAME'] }),
       ]),
   ],
