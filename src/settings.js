@@ -1,19 +1,19 @@
 module.exports = {
-  repository: 'https://github.com/uvacoder/abc-tinytoolbox',
-  bugs: 'https://github.com/rtivital/omatsuri/issues/new',
+  repository: 'https://github.com/uvacoder/uva-tinytoolbox',
+  bugs: 'https://github.com/uvacoder/uva-tinytoolbox/issues/new',
 
   meta: [
     { internal: true, to: '/about', label: 'About' },
     {
-      href: 'https://github.com/rtivital/omatsuri/issues/new',
+      href: 'https://github.com/uvacoder/uva-tinytoolbox/issues/new',
       label: 'Report issue',
     },
     {
-      href: 'https://github.com/rtivital/omatsuri/blob/master/CONTRIBUTING.md',
+      href: 'https://github.com/uvacoder/uva-tinytoolbox/blob/master/CONTRIBUTING.md',
       label: 'Contribute',
     },
     {
-      href: 'https://github.com/rtivital/omatsuri/blob/master/CHANGELOG.md',
+      href: 'https://github.com/uvacoder/uva-tinytoolbox/blob/master/CHANGELOG.md',
       label: 'Changelog',
     },
   ],
